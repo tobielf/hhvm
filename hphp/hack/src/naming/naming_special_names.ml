@@ -36,6 +36,8 @@ module Classes = struct
 
   let cHH_BuiltinEnumClass = "\\HH\\BuiltinEnumClass"
 
+  let cHH_BuiltinAbstractEnumClass = "\\HH\\BuiltinAbstractEnumClass"
+
   let cThrowable = "\\Throwable"
 
   let cStdClass = "\\stdClass"
@@ -719,10 +721,6 @@ module HH = struct
   let contains = "\\HH\\Lib\\C\\contains"
 
   let contains_key = "\\HH\\Lib\\C\\contains_key"
-end
-
-module Rx = struct
-  let is_enabled = "\\HH\\Rx\\IS_ENABLED"
 end
 
 module Shapes = struct

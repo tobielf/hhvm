@@ -39,6 +39,8 @@ pub mod classes {
 
     pub const HH_BUILTIN_ENUM_CLASS: &str = "\\HH\\BuiltinEnumClass";
 
+    pub const HH_BUILTIN_ABSTRACT_ENUM_CLASS: &str = "\\HH\\BuiltinAbstractEnumClass";
+
     pub const THROWABLE: &str = "\\Throwable";
 
     pub const STD_CLASS: &str = "\\stdClass";
@@ -735,10 +737,6 @@ pub mod hh {
     pub const CONTAINS: &str = "\\HH\\Lib\\C\\contains";
 
     pub const CONTAINS_KEY: &str = "\\HH\\Lib\\C\\contains_key";
-}
-
-pub mod rx {
-    pub const IS_ENABLED: &str = "\\HH\\Rx\\IS_ENABLED";
 }
 
 pub mod readonly {

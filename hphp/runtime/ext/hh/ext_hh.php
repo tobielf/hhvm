@@ -152,7 +152,7 @@ function serialize_memoize_param(mixed $param): arraykey;
 function clear_static_memoization(?string $cls, ?string $func = null) : bool;
 
 <<__Native>>
-function ffp_parse_string_native(string $program): string;
+function ffp_parse_string_native(string $program)[]: string;
 
 newtype ParseTree = darray;
 
@@ -631,6 +631,12 @@ function is_dynamically_callable_inst_method(
     string $class,
     string $method
 )[]: bool;
+
+<<__Native>>
+function check_dynamically_callable_inst_method(
+    string $class,
+    string $method
+)[]: void;
 
 <<__Native>>
 function reflection_class_get_name(
